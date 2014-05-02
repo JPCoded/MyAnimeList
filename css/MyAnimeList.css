@@ -1,0 +1,93 @@
+body {
+	font-family:Arial, Helvetica, Sans-Serif;
+	font-size:0.8em;
+}
+
+#completed,
+#ptw,
+#watching,
+#onhold {
+	border-collapse:collapse;
+}
+
+#completed h4,
+#ptw h4,
+#watching h4,
+#onhold h4 {
+	margin:0px;
+	padding:0px;
+}
+
+#completed img,
+#ptw img,
+#watching img,
+#onhold img {
+	float:right;
+}
+
+#completed ul,
+#ptw ul,
+#watching ul,
+#onhold ul {
+	list-style-type:none;
+	padding:0px;
+
+}
+
+#completed th,
+#ptw th,
+#watching th,
+#onhold th {
+	background:#7CB8E2 url(../images/header_bkg.png) repeat-x scroll center left;
+	color:#fff;
+	padding:7px 15px;
+	text-align:left;
+}
+b.air {
+color:red;
+}
+#completed td,
+#ptw td,
+#watching td,
+#onhold td {
+	background:#C7DDEE none repeat-x scroll center left;
+	color:#000;
+	padding:7px 15px;
+}
+
+#completed tr.odd td,
+#ptw tr.odd td,
+#watching tr.odd td,
+#onhold tr.odd td {
+	background:#fff url(../images/row_bkg.png) repeat-x scroll center left;
+	cursor:pointer;
+}
+
+#completed div.arrow,
+#ptw div.arrow,
+#watching div.arrow,
+#onhold div.arrow {
+	background:transparent url(../images/arrows.png) no-repeat scroll 0px -16px;
+	width:16px;
+	height:16px;
+	display:block;
+}
+
+#completed div.up,
+#ptw div.up,
+#watching div.up,
+#onhold div.up {
+	background-position:0px 0px;
+}
+
+#completed tr.nod td,
+#ptw tr.nod td,
+#watching tr.nod td,
+#onhold tr.nod td {
+	background:#fff url(../images/row_bkg2.png) repeat-x scroll center left;
+	cursor:pointer;
+}
+
+td.center {
+	text-align:center;
+}

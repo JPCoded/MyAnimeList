@@ -1,0 +1,1 @@
+<?php ?><html><head><title>Server Index</title><link rel='stylesheet' type='text/css' href='css/index.css' /></head><body><h1>Ubuntu Server</h1><hr><ul><li><a href='phpmyadmin/index.php'>phpMyAdmin</a></li><li><a href='MyAnimeList.php'>My Anime List</a><li><li><a href='AnimeUpdate.php'>Update Anime List</a><li></ul></body></html>
